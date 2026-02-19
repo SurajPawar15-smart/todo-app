@@ -14,7 +14,7 @@ export class TodoList {
     this.tasks.push(this.newTask);
     this.newTask = '';
   }
-  removeTask(index: nmber) {
+  removeTask(index: number) {
     this.tasks.splice(index, 1);
   }
 }
